@@ -1,0 +1,23 @@
+{
+  "name": "node_learning",
+  "version": "1.0.0",
+  "description": "API REST with Node JS",
+  "license": "MIT",
+  "author": "Salvador",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "multer": "^2.0.2",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
